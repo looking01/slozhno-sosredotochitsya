@@ -1,5 +1,40 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  max-inline-size: 375px;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  margin: 0 auto;
+  inline-size: 100%;
+  block-size: 100vh;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+} 
+
+.header__decorated-element::after {
+  content: "rec";
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--accent-text-color);
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 50px;
+
+
+}
+
+.header__theme-menu {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: end;
+}
+
+.header__theme-menu-list {
+
 }
