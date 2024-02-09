@@ -3,13 +3,14 @@
   и их переопределение под различные устройства
 */
 :root {
+  --main-font-family: 'IBM Plex Mono', sans-serif;
+  --main-font-size: 18px;
+  --main-bg-color: #000028;
   --title-text-color: #db00ff;
   --subtitle-text-color: #000028;
   --text-color: #f1b2ce;
   --accent-text-bg-color: #ff0070;
   --accent-text-color: #ff0070;
-  --main-font-size: 18px;
-  --main-bg-color: #000028;
   --shadow-color: #ff0070;
   --decor-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
