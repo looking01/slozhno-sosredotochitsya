@@ -7,11 +7,12 @@
   --main-font-size: 18px;
   --main-bg-color: #000028;
   --title-text-color: #db00ff;
-  --subtitle-text-color: #000028;
   --text-color: #f1b2ce;
-  --accent-text-bg-color: #ff0070;
+  --decor-font-color: #000028;
+  --decor-font-weight: 700;
+  --decor-bg-color: #ff0070;
+  --decor-color: #ff0070;
   --accent-text-color: #ff0070;
   --shadow-color: #ff0070;
-  --decor-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
 }
