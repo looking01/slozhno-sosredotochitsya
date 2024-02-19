@@ -17,7 +17,7 @@
 .header {
   max-inline-size: 375px;
   display: grid;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
   padding: 10px;
 } 
@@ -116,10 +116,11 @@
 
 .header__title {
   font-family: var(--main-font-family);
-  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-text-color);
   text-shadow: 4px 4px 0 var(--shadow-color);
   line-height: 83%;
+  max-inline-size: 350px;
 }
 
 .header__subtitle {
@@ -128,7 +129,7 @@
   line-height: 130%;
   margin-block-start: 55px;
   margin-block-end: 55px;
-  min-block-size: 117px;
+  max-block-size: 117px;
 }
 
 .title-decor {
