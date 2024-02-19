@@ -20,6 +20,7 @@
   grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
   padding: 10px;
+  margin-block-end: 40px;
 } 
 
 .header__decorated-element {
@@ -120,7 +121,6 @@
   color: var(--title-text-color);
   text-shadow: 4px 4px 0 var(--shadow-color);
   line-height: 83%;
-  max-inline-size: 350px;
 }
 
 .header__subtitle {
@@ -138,4 +138,13 @@
   color: var(--decor-font-color);
   font-weight: var(--decor-font-weight);
   background-color: var(--decor-bg-color);
+}
+
+main {
+  padding-inline: 10px;
+  margin-block-end: 40px;
+}
+
+.section_block:not(:last-of-type) {
+  margin-block-end: 50px;
 }
