@@ -68,7 +68,7 @@
 }
 
 .header__theme-menu-item {
-  color: var(--accent-text-color);
+  color: var(--decor-text-color);
   block-size: 26px;
   inline-size: 70px;
   text-align: center;
@@ -165,7 +165,7 @@ main {
   font-size: var(--main-font-size);
   font-family: var(--main-font-family);
   font-weight: var(--decor-font-weight);
-  color: var(--decor-color);
+  color: var(--decor-text-color);
 }
 
 .cards__article__text {
@@ -185,6 +185,11 @@ main {
   line-height: inherit;
   text-shadow: 2px 2px var(--decor-color);
   text-decoration: none;
+}
+
+.cards__article__subtitle {
+  color: var(--accent-text-color);
+
 }
 
 .factors {

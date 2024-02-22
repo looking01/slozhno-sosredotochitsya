@@ -12,7 +12,7 @@
   --decor-font-weight: 700;
   --decor-bg-color: #ff0070;
   --decor-color: #ff0070;
-  --accent-text-color: #ff0070;
+  --decor-text-color: #ff0070;
   --shadow-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
 }
