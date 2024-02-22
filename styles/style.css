@@ -192,3 +192,12 @@ main {
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
+.factors-cards__article:not(:last-of-type) {
+  margin-block-end: 20px;
+}
+
+.factors-cards__article__text {
+  margin-block-start: 10px;
+}
+
