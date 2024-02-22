@@ -157,7 +157,7 @@ main {
   flex-wrap: wrap;
 }
 
-.reasons .reasons-cards__article:not(:last-of-type) {
+.reasons .cards__article:not(:last-of-type) {
   margin-block-end: 20px;
 }
 
@@ -168,7 +168,7 @@ main {
   color: var(--decor-color);
 }
 
-.reasons-cards__article__text {
+.cards__article__text {
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -177,7 +177,7 @@ main {
   margin-block-start: 10px;
 }
 
-.reasons-cards__article__text-link {
+.cards__article__text-link {
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -193,11 +193,8 @@ main {
   gap: 20px;
 }
 
-.factors-cards__article:not(:last-of-type) {
+.factors .cards__article:not(:last-of-type) {
   margin-block-end: 20px;
 }
 
-.factors-cards__article__text {
-  margin-block-start: 10px;
-}
 
