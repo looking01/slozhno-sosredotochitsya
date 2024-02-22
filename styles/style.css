@@ -135,6 +135,7 @@
 .title-decor {
   font-family: inherit;
   font-size: inherit;
+  line-height: inherit;
   color: var(--decor-font-color);
   font-weight: var(--decor-font-weight);
   background-color: var(--decor-bg-color);
@@ -147,4 +148,40 @@ main {
 
 .section_block:not(:last-of-type) {
   margin-block-end: 50px;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.reasons .reasons-cards__article:not(:last-of-type) {
+  margin-block-end: 20px;
+}
+
+.section__block-title {
+  font-size: var(--main-font-size);
+  font-family: var(--main-font-family);
+  font-weight: var(--decor-font-weight);
+  color: var(--decor-color);
+}
+
+.reasons-cards__article__text {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin-block-start: 10px;
+}
+
+.reasons-cards__article__text-link {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  
 }
