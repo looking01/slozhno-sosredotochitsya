@@ -183,5 +183,6 @@ main {
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
-  
+  text-shadow: 2px 2px var(--decor-color);
+  text-decoration: none;
 }
