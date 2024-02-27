@@ -90,6 +90,7 @@
 
 .decorated-zone {
   position: relative;
+  min-block-size: 100vb;
 }
 
 .decorated-zone::after {
@@ -234,4 +235,8 @@ main {
   display: flex;
   place-content: center;
   align-items: center;
+}
+
+.footer__title {
+  text-shadow: 2px 2px 0 var(--shadow-color);
 }
