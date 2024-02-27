@@ -21,6 +21,7 @@
   block-size: 100vh;
   padding: 10px;
   margin-block-end: 40px;
+  align-items: center;
 } 
 
 .header__decorated-element {
@@ -116,11 +117,14 @@
 }
 
 .header__title {
+  text-shadow: 4px 4px 0 var(--shadow-color);
+}
+
+.global-title-decor {
   font-family: var(--main-font-family);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-text-color);
-  text-shadow: 4px 4px 0 var(--shadow-color);
-  line-height: 83%;
+  line-height: 82.5%;
 }
 
 .header__subtitle {
@@ -129,7 +133,6 @@
   line-height: 130%;
   margin-block-start: 55px;
   margin-block-end: 55px;
-  max-block-size: 117px;
 }
 
 .title-decor {
@@ -227,3 +230,8 @@ main {
   inline-size: 100%;
 }
 
+.footer {
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
