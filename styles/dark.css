@@ -5,8 +5,15 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --text-color: #f1b2ce;
+  --title-text-color: #db00ff;
+  --main-bg-color: #000028;
+  --main-bg-image: url(../images/cover-image-dark.png);
+  --main-hover-button-border-color: #ff0070;
+  --accent-text-color: #000028;
+  --decor-text-color: #ff0070;
+  --decor-text-shadow-color: #ff0070;
+  --decor-bg-color: #ff0070;
+  --decor-color: #ff0070;
+  --decor-shadow-color:#ff0070;
 }
