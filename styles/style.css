@@ -15,7 +15,6 @@
 }
 
 .header {
-  max-inline-size: 375px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
