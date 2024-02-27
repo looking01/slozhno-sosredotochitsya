@@ -188,8 +188,13 @@ main {
 }
 
 .cards__article__subtitle {
-  color: var(--accent-text-color);
-
+  color: var(--decor-font-color);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 23.4px;
+  margin-block: 20px 10px;
+  background-color: var(--decor-bg-color);
 }
 
 .factors {
@@ -201,5 +206,12 @@ main {
 .factors .cards__article:not(:last-of-type) {
   margin-block-end: 20px;
 }
+
+.advices {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 
 
