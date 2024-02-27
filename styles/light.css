@@ -1,3 +1,10 @@
 .page.theme_light {
+  --text-color: #353430;
+  --title-text-color: #ffc2e6;
+  --main-bg-color: #fff1f7;
+  --main-bg-image: url(../images/cover-image-light.png)
+  --main-hover-button-border-color: #353430;
+  --accent-text-color: #353430;
+  --decor-text-color: #353430;
   
 }
