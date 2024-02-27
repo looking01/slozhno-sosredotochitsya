@@ -5,7 +5,8 @@
 :root {
   --main-font-family: 'IBM Plex Mono', sans-serif;
   --main-font-size: 18px;
-  --decor-font-weight: 700;
+  --main-font-weight: 400;
+  --accent-font-weight: 700;
 
 
   --text-color: #f1b2ce;
