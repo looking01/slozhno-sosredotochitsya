@@ -10,6 +10,7 @@
   --decor-bg-color: #ff8dcb;
   --decor-color: #353430;
   --decor-shadow-color: #ff8dcb;
+  --visible-rec: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,5 +26,6 @@
     --decor-bg-color: #ff8dcb;
     --decor-color: #353430;
     --decor-shadow-color: #ff8dcb;
+    --visible-rec: none;
   }
 }

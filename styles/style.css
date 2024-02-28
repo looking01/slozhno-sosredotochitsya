@@ -31,6 +31,7 @@
 
 .header__decorated-element::before {
   content: '';
+  display: var(--visible-rec);
   inline-size: 9px;
   block-size: 9px;
   border-radius: 100%;
@@ -44,7 +45,7 @@
 
 .header__decorated-element::after {
   content: 'rec';
-  display: block;
+  display: var(--visible-rec);
   text-transform: uppercase;
   font-weight: var(--main-font-weight);
   line-height: 25px;
