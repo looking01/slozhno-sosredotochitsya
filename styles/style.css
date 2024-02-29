@@ -327,7 +327,15 @@ main {
   margin-block-start: 10px;
 }
 
+@media (width >= 376px) {
+  .gallery-block {
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    gap: 20px;
+  }
 
+  
+}
 
 .gallery-block__img {
   object-fit: cover;
