@@ -3,7 +3,7 @@
   --title-text-color: #ffc2e6;
   --main-bg-color: #fff1f7;
   --main-bg-image: url(../images/cover-image-light.png);
-  --main-hover-button-border-color: #353430;
+  --main-hover-button-border-color: rgba(50, 49, 45, 0.4);
   --accent-text-color: #353430;
   --decor-text-color: #353430;
   --decor-text-shadow-color: #ff8dcb;
@@ -19,7 +19,7 @@
     --title-text-color: #ffc2e6;
     --main-bg-color: #fff1f7;
     --main-bg-image: url(../images/cover-image-light.png);
-    --main-hover-button-border-color: #353430;
+    --main-hover-button-border-color: rgba(50, 49, 45, 0.4);
     --accent-text-color: #353430;
     --decor-text-color: #353430;
     --decor-text-shadow-color: #ff8dcb;

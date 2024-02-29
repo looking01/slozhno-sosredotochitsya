@@ -12,7 +12,7 @@
   --decor-color: #ff0070;
   --main-bg-color: #000028;
   --main-bg-image: url(../images/cover-image-dark.png);
-  --main-hover-button-border-color: var(--decor-color);
+  --main-hover-button-border-color: rgba(255, 0, 112, 0.4);
   --accent-text-color: #000028;
   --decor-text-color: var(--decor-color);
   --decor-text-shadow-color: var(--decor-color);
