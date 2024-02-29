@@ -17,7 +17,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  block-size: 100vh;
+  min-block-size: 100vh;
   padding: 10px;
   margin-block-end: 40px;
   align-items: center;
@@ -115,6 +115,7 @@
   line-height: 18px;
   border: 1px solid transparent;
   padding: 2px 13px;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -187,7 +188,7 @@
 }
 
 .global-title-decor {
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family), monospace, sans-serif;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-text-color);
   line-height: 82.5%;
@@ -272,7 +273,7 @@ main {
 
 .section__block-title {
   font-size: var(--main-font-size);
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family), monospace, sans-serif;
   font-weight: var(--accent-font-weight);
   color: var(--decor-text-color);
 }
