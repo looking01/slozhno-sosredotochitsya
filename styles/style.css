@@ -204,6 +204,8 @@
 }
 
 .header__subtitle {
+  font-family: inherit;
+  color: var(--accent-text-color);
   font-weight: var(--accent-font-weight);
   font-size: var(--main-font-size);
   line-height: 130%;
@@ -223,11 +225,6 @@
 }
 
 .title-decor {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  color: var(--accent-text-color);
-  font-weight: var(--accent-font-weight);
   background-color: var(--decor-bg-color);
 }
 
@@ -287,6 +284,14 @@ main {
   .section__block-title {
     inline-size: 315px;
   }
+}
+
+.cards__article__title {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--accent-text-color);
+  font-weight: var(--accent-font-weight);
 }
 
 .cards__article__text {
@@ -373,6 +378,14 @@ main {
   flex-direction: column;
   gap: 10px;
   margin-block-start: 10px;
+}
+
+.gallery-block__title {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--accent-text-color);
+  font-weight: var(--accent-font-weight);
 }
 
 @media (width >= 376px) {
