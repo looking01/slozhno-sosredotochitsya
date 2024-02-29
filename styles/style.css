@@ -175,6 +175,12 @@
   text-shadow: 4px 4px 0 var(--decor-text-shadow-color);
 }
 
+@media (width >= 376px) {
+  .header__title {
+    margin-inline-start: -20px;
+  }
+}
+
 .global-title-decor {
   font-family: var(--main-font-family);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -188,6 +194,14 @@
   line-height: 130%;
   margin-block-start: 55px;
   margin-block-end: 55px;
+}
+
+@media (width >= 376px) {
+  .header__subtitle {
+    inline-size: 50%;
+    justify-self: end;
+  }
+  
 }
 
 .title-decor {
@@ -213,6 +227,10 @@ main {
   flex-direction: column;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+@media (w) {
+  
 }
 
 .reasons .cards__article:not(:last-of-type) {
