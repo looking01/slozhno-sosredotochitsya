@@ -242,6 +242,10 @@ main {
   .reasons .cards {
     flex: 1 0 0;
   }
+
+  .section_block:not(:last-of-type) {
+    margin-block-end: 80px;
+  }
 }
 
 .reasons .cards__article:not(:last-of-type) {
@@ -306,12 +310,24 @@ main {
   flex-wrap: wrap;
 }
 
+@media (width >= 376px) {
+  .advices {
+    flex-direction: row;
+  }
+
+  .advices .cards {
+    flex: 1 0 0;
+  }
+}
+
 .gallery-block {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-block-start: 10px;
 }
+
+
 
 .gallery-block__img {
   object-fit: cover;
