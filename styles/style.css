@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: var(--main-font-family, sans-serif);
+  font-family: var(--main-font-family), monospace, sans-serif;
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
   line-height: 1.3;
@@ -215,7 +215,6 @@
   .header__subtitle {
     inline-size: 50%;
     justify-self: end;
-    
   }
 
   .header__subtitle-text {
