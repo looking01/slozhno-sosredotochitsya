@@ -338,6 +338,10 @@ main {
     display: flex;
     gap: 20px;
   }
+
+  .factors .cards .cards__article {
+    flex: 1 1 0px;
+  }
 }
 
 .factors .cards__article:not(:last-of-type) {
