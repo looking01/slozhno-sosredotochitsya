@@ -26,6 +26,7 @@
 @media (width >= 376px) {
   .header {
     padding: 20px;
+    margin-block-end: 60px;
   }
 }
 
@@ -201,7 +202,6 @@
     inline-size: 50%;
     justify-self: end;
   }
-  
 }
 
 .title-decor {
@@ -229,8 +229,19 @@ main {
   flex-wrap: wrap;
 }
 
-@media (w) {
-  
+@media (width >= 376px) {
+  main {
+    padding-inline: 20px;
+    margin-block-end: 60px;
+  }
+
+  .reasons {
+    flex-direction: row;
+  }
+
+  .reasons .cards {
+    flex: 1 0 0;
+  }
 }
 
 .reasons .cards__article:not(:last-of-type) {
@@ -242,6 +253,12 @@ main {
   font-family: var(--main-font-family);
   font-weight: var(--accent-font-weight);
   color: var(--decor-text-color);
+}
+
+@media (width >= 376px) {
+  .section__block-title {
+    inline-size: 236px;
+  }
 }
 
 .cards__article__text {
