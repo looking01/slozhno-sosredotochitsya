@@ -215,6 +215,11 @@
   .header__subtitle {
     inline-size: 50%;
     justify-self: end;
+    
+  }
+
+  .header__subtitle-text {
+    overflow-wrap: break-word;
   }
 }
 

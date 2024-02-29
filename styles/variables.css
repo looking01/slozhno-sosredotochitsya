@@ -3,9 +3,9 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font-family: 'IBM Plex Mono', sans-serif;
+  --main-font-family: 'IBM Plex Mono', Monospace, sans-serif;
   --main-font-size: 18px;
-  --main-font-weight: 400;
+  --main-font-weight:
   --accent-font-weight: 700;
 
 
