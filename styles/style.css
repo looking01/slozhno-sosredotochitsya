@@ -309,6 +309,18 @@ main {
   text-decoration: none;
 }
 
+.cards__article__text-link:hover {
+  border-block-end: 1px solid currentColor;
+}
+
+.cards__article__text-link:focus {
+  outline: none;
+}
+
+.cards__article__text-link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
 .cards__article__subtitle {
   color: var(--accent-text-color);
   font-family: inherit;
