@@ -356,7 +356,7 @@ main {
     gap: 20px;
   }
 
-  .factors .cards .cards__article {
+  .flex-modified {
     flex: 1 1 0px;
   }
 }
